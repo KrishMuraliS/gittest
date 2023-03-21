@@ -1,0 +1,4 @@
+touch filea{1..20}.txt
+ls
+ls * | head -n -5 | xargs rm
+ls
