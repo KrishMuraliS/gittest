@@ -1,0 +1,11 @@
+IP address of Guvi.com
+	Ø Dig guvi.vom
+	Ø Nslookup guvi.com
+	Ø Host guvi .com
+	Ø Ping guvi.com
+CPU and memory usage
+	Ø Top
+Connectivity between 2 nodes
+	Ø Telnet #IPaddress #PortNumber
+Port is open or not
+netstat -an | grep PORTNUMBER
