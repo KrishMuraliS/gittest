@@ -1,0 +1,5 @@
+cd /home/
+touch demo.txt
+ls -lrt
+chmod u=rwx,g=rw,o=r demo.txt
+ls -lrt
