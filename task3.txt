@@ -9,3 +9,12 @@ Connectivity between 2 nodes
 	Ø Telnet #IPaddress #PortNumber
 Port is open or not
 netstat -an | grep PORTNUMBER
+
+# Send a request to guvi.in and get the HTTP status code 
+http_code=$(curl -s -o /dev/null -w "%[http_code}" https://guvi.in) 
+# Check if the HTTP status code is 2xx or 3xx, which indicates success 
+if "$http_code" 
+l]; then 
+echo "Request to guvi.in succeeded with HTTP status code $http_code" 
+else 
+echo "Request to guvi.in failed with HTTP status code $http_code" 
